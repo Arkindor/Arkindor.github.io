@@ -1,0 +1,268 @@
+/*
+
+
+Couleur : 
+- vert : #00ccbc
+- gris : #f9fafa
+- noir : #2e3333
+- beige : #ffeae4
+- red: #ff483b
+- orange : #ff8100
+- grey2 : #bac3c3
+- violet: #440063
+
+*/
+
+
+
+
+
+
+
+/* Style Général */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Poppins:wght@500;600&display=swap');
+
+body{
+  color: #2e3333;
+  margin: 0px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section {
+  min-height: 200px;
+  width: 100vw;
+  padding: 12px 6%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* Style Général */
+
+#hero{
+background: linear-gradient(174.24deg, #00CCBC 2.36%, #00CCBC 49.37%, #C8E79D 49.37%, #D0EB99 88.81%);
+}
+
+h1, h2, h3, h4, h5, .title-font {
+  font-family: 'Poppins';
+  letter-spacing: -0.85px;
+  font-weight: 600
+}
+
+h1{
+  color:#440063;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a{
+  color: #00ccbc;
+  text-decoration: none;
+}
+
+.btn{
+  color: white;
+  background-color: #00ccbc;
+  padding: 12px 24px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+/* Style Livraison */
+
+#livraison{
+  background-color: #ffeae4;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap; /*Aligner en fonction de la largeur de la page*/
+  justify-content: space-between;
+  padding: 50%;
+}
+
+.card{
+  width: 30%;
+  overflow: hidden; /*Cacher ce qui dépasse du container*/
+}
+
+#livraison .card img{
+  height:160px;                 /*hauteur*/
+  background-size: cover;
+  background-position: 50%;
+}
+
+
+
+
+
+
+
+/* Style section A la carte */
+
+.card-container{
+    padding: 50px;
+}
+
+#carte h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height:160px;
+  font-size: 40px;
+}
+
+#carte .card {      /* Dedans avec espace*/
+  width: 45%;           /*Largeur des cadres*/
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Style section Options */
+
+.option-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#option a{
+  background-color: white;
+  padding: 20px;
+  color: black;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+
+a:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style section Chaud */
+
+.great-content{
+  display: flex;
+  background-color: white;
+  height: 250px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+}
+
+.content{
+  padding: 20px;
+}
+
+.great-content content{
+  padding: 12px 30px;
+  flex: 1;
+}
+
+.great-content img{
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style section Travailler */
+
+.card-bloc{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.card-sousbloc img{
+  width: 100%;                 /*hauteur*/
+
+}
+
+.card-sousbloc{
+  width: 30%;
+}
+
+.card-sousbloc h2, .card-sousbloc p, .card-sousbloc a{
+  padding: 30px;
+}
+
+.card-sousbloc h2{
+  color: white;
+}
+
+.card-sousbloc p{
+  color:white;
+}
+
+.fond-rouge{
+  background-color: #ff483b
+}
+
+.fond-orange{
+  background-color: #ff8100
+}
+
+.fond-gris{
+  background-color: #bac3c3
+}
+
+
+
+.btn:hover{
+  opacity: 1; 
+  font-weight: 900;
+}
+
+.btn-vert {
+  background-color: #00ccbc;
+  color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  opacity: 0.85
+}
+
+/* Style section Hero */
