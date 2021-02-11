@@ -7,7 +7,7 @@
 
 /* Style globale */
 body{
-  margin: 5% 10%;
+  margin: 0px;
   font-family: "roboto";
   color: #1e3245;
   background-color: #f1a1a147;
@@ -84,7 +84,7 @@ input{
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.07);
   border-radius: 4px;
   padding: 30px;
-  margin: 16px 0px;
+  margin: 5%;
 }
 
 .card:hover{
@@ -145,6 +145,30 @@ input{
 
 
 
+/* Animation */
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* Hero */
+
+.container{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  color: #ec4646;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
 
 
 /* Java script */

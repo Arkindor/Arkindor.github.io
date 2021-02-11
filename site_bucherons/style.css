@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+body {                           
+  background-color:#916D3A;
+  font-family:'Merriweather', serif;
+}
+
+.fond{
+  color:black;
+  background-image:url('https://previews.123rf.com/images/chrupka/chrupka1308/chrupka130800110/21764630-pile-of-wood-logs-seamless-texture-or-background.jpg');
+  padding: 40px;
+}
+
+h3{
+  font-family:'PT Serif', serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style section Top */
+
+
+
+#top {
+  text-transform: uppercase;
+  text-align: center;
+  color: #FAEFBE;
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  background-image: url('https://bstatic.com/xdata/images/xphoto/1182x887/82877075.jpg?k=db9e00135b7b8f038aad88a7676235667ca249a5eed997a499677812fa332833&o=?size=S');
+}
+
+#top a {
+  text-decoration: none;
+}
+
+#top a:visited{
+  color: #FAEFBE;
+}
+
+.navbuttons-container-flex {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  padding: 8px 20px;
+  background-color: rgba(130, 100, 60, 0.8);
+}
+
+#top h1 {
+  color: FAEFBE;
+  background-color: rgba(130, 100, 60, 0.5);
+  border-radius: 2px;
+  padding: 0px 8px;
+}
+
+.navbuttons-container-flex a {
+  display: block;
+  margin: 4px;
+  color: white;
+}
+
+.illustration-container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.info-button {
+  background-color: rgba(130, 100, 60, 0.8);
+  border-radius: 3px;
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style section Choix */
+
+.card-flex{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 0px 0px 100px 0px; /* Haut Droite Bas Gauche */
+}
+
+.card-flex p{
+  font-size: 70%;
+}
+
+.card-flex h3{
+  font-size: 150%;
+}
+
+.card-bloc img{
+  height: 200px;
+  border: solid #deb887;
+  border-radius: 10%;
+}
+
+.titre{
+  background-color: #ffdead;
+  text-align: center;
+  padding: 5px;
+  font-size: 250%;
+  border: solid black;
+  border-width: 1px 1px 1px 1px;
+}
+
+.card-bloc{
+  width: 240px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 2%;
+  border: solid #ffdead;
+  margin: 20px;
+}
+
+.card-bloc a{
+  text-decoration: none;
+}
+
+.card-bloc p{
+  text-align: justify;
+}
+
+.assombrir:hover{          /*quand la souris touche un cadre*/
+  box-shadow: -1px 3px 11px rgba(100, 0, 0, 0.3);
+  background-color: #fdf5e6;
+}
+
+.bouton{
+  padding: 0px 15px;
+  border-radius: 10%;
+  cursor: pointer;
+  border: solid black;
+  border-width: 1px 1px 1px 1px;
+  display: inline-block;
+  background-color: #ffdead;
+  font-size: 150%;
+  
+}
+
+.bouton:hover{
+  opacity: 1; 
+  font-weight: 900;
+}
+
+.card-bloc a{
+  color: brown;
+}
+
+
+
+
+
+
+/* Un Espace */
+
+.espace{
+  margin: 100px;
+}
+
+
+
+
+
+
+/* Style section Télécharger */
+
+.card-flex2{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 2%;
+  margin: 0 auto;       /*Pour centrer la division*/
+  align-items: center;
+  padding: 20px;
+  border: solid #ffdead;
+}
+
+.card-bloc2 h3{
+  font-size: 150%;
+}
+
+.card-bloc2{
+  margin: 0px 30px 0px 0px;
+}
+
+.card-sousbloc-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style section About */
+
+
+.about h2{
+    text-align: center;
+    font: 3.2em "Fira Sans", sans-serif;
+}
+
+.about{
+    padding: 10px;
+}
+
+.about-flex{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.card-flex3{
+    height: 350px;
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.card-flex3 img{
+    height: 150px;
+    width: 300px;
+}
+
+.card-flex3 a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-flex3 a:hover{
+    background-color: rgb(143, 0, 0);
+}
+
+.paragraphe{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font: caption;
+    font-size: 12px;
+}
+
+.categorie{
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.categorie-liste{
+    margin: auto;
+    padding:20px;
+    line-height: 220%;
+    height: 320px;
+    width: 150px;
+}
+
+.categorie-liste h3{
+    font-size: 18px;
+    font-family: monospace;
+    color: #2D2D2D;
+}
+
+.categorie-liste a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    color: #FAEFBE;
+}
+
+.categorie-liste a:hover{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    color: #2D2D2D;
+}
+
+.card-flex4{
+    display: flex;
+    justify-content: center;
+}
+
+.card-app{
+    margin-right: 10px;
+    
+}
+.vertical { 
+    border-left: 1px solid black; 
+    height: 100px; 
+    display: inline-block;
+    } 
+
+.card-sn{
+    margin-left: 10px;
+    
+}
+
+
+.card-flex5{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-paye{
+    text-align: center;
+}
+
+.mentionleg{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mentionleg a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    color: #FAEFBE;
+}
+
+.mentionleg a:hover{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    color: #2D2D2D;
+}
+
+.end{
+    text-align: center;
+
+    font-size: 16px;
+    font-family: monospace;
+    color: #FAEFBE  
+}
