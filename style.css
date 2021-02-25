@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 
-/* Style globale */
+/* Style global */
+
 body{
   margin: 0px;
   font-family: "roboto";
@@ -79,12 +80,14 @@ input{
 }
 
 /* Style Cartes */
+
 .card{
   background-color: white;
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.07);
   border-radius: 4px;
   padding: 30px;
   margin: 5%;
+  scroll-margin-top: 100px;
 }
 
 .card:hover{
@@ -165,7 +168,6 @@ html{
   background-size: cover;
   background-position: center;
   padding: 10px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0px;
 }
