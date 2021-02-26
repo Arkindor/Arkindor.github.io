@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+body{
+    margin: 0px;
+}
+
+.bg-img{
+  background-image : url('https://chateau-ainaylevieil.fr/wp-content/uploads/2019/09/6163017014_1c924df5ee_b.jpg')
+}
+
+#hero{
+  display: flex;
+  height : 60vh;
+  justify-content: center;
+  align-items : center;
+  background-size: cover;
+  position: relative;
+  font-family: 'MedievalSharp', cursive;
+}
+
+#titre{
+  text-align: center;
+  border: 2px white solid;
+  border-radius: 5%;
+  padding: 10px;
+  color: white;
+  font-size: 150%;
+  background-color: rgba(130, 100, 60, 0.3);
+}
+
+#hero img{
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+
+}
+
+#wrapper{
+  min-height: 500px;   /* Hauteur minimum, très utilisé en responsive*/
+  margin: -1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+#text-container{
+  flex-grow: 1;
+  min-height: 20px;
+  background-color: #C6C7F3;
+  margin: 0px 30px 0px 0px;
+  padding: 20px;
+  text-align: justify;
+}
+
+#side-bar{
+  background-color: #8DE179;
+  min-width: 150px;
+  height: 40vh;
+  color: white;
+  background-position: center;
+  padding: 10px;
+  position: sticky;
+  top: 50px;
+}
+
+
+@media screen and (max-width: 700px) {
+  
+  #side-bar{
+    display: none;
+  }
+  
+  #text-container{
+  margin: 0px;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+#card{
+  margin-bottom: 80px;
+  position: relative;
+}
+
+#card a{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+}
+
+#card:hover a{
+  display: block;
+}
